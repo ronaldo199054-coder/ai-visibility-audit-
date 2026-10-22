@@ -1,0 +1,16 @@
+# 复制成 config.toml 后改成你自己的内容。不要把 API key 写在这里。
+brand = "示例品牌"
+aliases = ["示例品牌", "ExampleBrand"]
+competitors = ["竞品A", "竞品B"]
+
+# 用户可能会问的问题，建议 10 个左右，从真实用户口吻写
+questions = [
+  "想找一家靠谱的本地咖啡供应商，有推荐吗？",
+  "小公司做品牌宣传，有什么性价比高的办法？",
+  "示例品牌是做什么的？",
+]
+
+[model]
+base_url = "https://api.example.com/v1"
+model = "your-model-name"
+max_tokens = 800
