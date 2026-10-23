@@ -1,5 +1,7 @@
 # ai-visibility-audit
 
+> A tiny CLI to check whether AI answers mention your brand, and how you compare to competitors. No ranking promises, no scraping.
+
 一个很小的命令行工具：输入品牌名、竞品和一组用户可能会问的问题，
 用你自己的 API key 调一个 OpenAI 兼容接口，输出一份 Markdown 审计报告：
 AI 在回答这些问题时有没有提到你、怎么提到你、和竞品比缺了哪些问题。
@@ -55,9 +57,8 @@ python3 -m ai_visibility_audit --config config.example.toml --out report.md --dr
 python3 -m unittest discover -s tests -v
 ```
 
-## 发布前要改的
+## 注意
 
-- `LICENSE` 里的版权人改成你自己的名字
 - `config.toml` 不要提交，`.gitignore` 已经排除了它和生成的报告
 
 ## Changelog
